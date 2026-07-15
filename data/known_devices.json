@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2024-01-15",
+  "description": "Known GMS-certified and non-certified Android devices",
+  "certified_devices": [
+    {
+      "manufacturer": "Google",
+      "brand": "Pixel",
+      "models": [
+        {"model": "Pixel 8 Pro", "codename": "husky", "gms_version": "23.47", "certified_date": "2023-10"},
+        {"model": "Pixel 8", "codename": "shiba", "gms_version": "23.47", "certified_date": "2023-10"},
+        {"model": "Pixel 7 Pro", "codename": "cheetah", "gms_version": "23.30", "certified_date": "2022-10"},
+        {"model": "Pixel 7", "codename": "panther", "gms_version": "23.30", "certified_date": "2022-10"},
+        {"model": "Pixel 6 Pro", "codename": "raven", "gms_version": "23.06", "certified_date": "2021-10"},
+        {"model": "Pixel 6", "codename": "oriole", "gms_version": "23.06", "certified_date": "2021-10"},
+        {"model": "Pixel 5a (5G)", "codename": "barbet", "gms_version": "22.50", "certified_date": "2021-08"},
+        {"model": "Pixel 5", "codename": "redfin", "gms_version": "21.41", "certified_date": "2020-10"},
+        {"model": "Pixel 4a (5G)", "codename": "bramble", "gms_version": "21.41", "certified_date": "2020-10"},
+        {"model": "Pixel 4a", "codename": "sunfish", "gms_version": "21.41", "certified_date": "2020-08"},
+        {"model": "Pixel 4 XL", "codename": "coral", "gms_version": "20.41", "certified_date": "2019-10"},
+        {"model": "Pixel 3a XL", "codename": "bonito", "gms_version": "19.32", "certified_date": "2019-05"}
+      ]
+    },
+    {
+      "manufacturer": "Samsung",
+      "brand": "Samsung",
+      "models": [
+        {"model": "Galaxy S24 Ultra", "codename": "dm3q", "certified_date": "2024-01"},
+        {"model": "Galaxy S24+", "codename": "dm2q", "certified_date": "2024-01"},
+        {"model": "Galaxy S24", "codename": "dm1q", "certified_date": "2024-01"},
+        {"model": "Galaxy S23 Ultra", "codename": "dm3q", "certified_date": "2023-02"},
+        {"model": "Galaxy S23", "codename": "dm2q", "certified_date": "2023-02"},
+        {"model": "Galaxy Z Fold 5", "codename": "q5q", "certified_date": "2023-08"},
+        {"model": "Galaxy Z Flip 5", "codename": "b5q", "certified_date": "2023-08"},
+        {"model": "Galaxy S22 Ultra", "codename": "r0q", "certified_date": "2022-02"},
+        {"model": "Galaxy S22", "codename": "r0s", "certified_date": "2022-02"},
+        {"model": "Galaxy A54", "codename": "a53x", "certified_date": "2023-03"}
+      ]
+    },
+    {
+      "manufacturer": "OnePlus",
+      "brand": "OnePlus",
+      "models": [
+        {"model": "OnePlus 12", "codename": "CPH2573", "certified_date": "2024-01"},
+        {"model": "OnePlus 11", "codename": "CPH2451", "certified_date": "2023-01"},
+        {"model": "OnePlus 10T", "codename": "CPH2413", "certified_date": "2022-08"},
+        {"model": "OnePlus Nord 3", "codename": "CPH2493", "certified_date": "2023-07"}
+      ]
+    },
+    {
+      "manufacturer": "Xiaomi",
+      "brand": "Xiaomi",
+      "models": [
+        {"model": "Xiaomi 14 Pro", "codename": "shennong", "certified_date": "2023-11"},
+        {"model": "Xiaomi 14", "codename": "houji", "certified_date": "2023-11"},
+        {"model": "Xiaomi 13 Ultra", "codename": "ishtar", "certified_date": "2023-04"},
+        {"model": "Xiaomi 13 Pro", "codename": "fuxi", "certified_date": "2022-12"},
+        {"model": "POCO F5 Pro", "codename": "mondrian", "certified_date": "2023-05"}
+      ]
+    },
+    {
+      "manufacturer": "Sony",
+      "brand": "Sony",
+      "models": [
+        {"model": "Xperia 1 V", "codename": "PDX-234", "certified_date": "2023-06"},
+        {"model": "Xperia 5 V", "codename": "PDX-236", "certified_date": "2023-09"},
+        {"model": "Xperia 10 V", "codename": "PDX-235", "certified_date": "2023-06"}
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "brand": "ASUS",
+      "models": [
+        {"model": "Zenfone 10", "codename": "AI2202", "certified_date": "2023-07"},
+        {"model": "ROG Phone 7", "codename": "AI2205", "certified_date": "2023-04"},
+        {"model": "Zenfone 9", "codename": "AI2202", "certified_date": "2022-07"}
+      ]
+    },
+    {
+      "manufacturer": "Nothing",
+      "brand": "Nothing",
+      "models": [
+        {"model": "Phone (2)", "codename": "Nothing Phone 2", "certified_date": "2023-07"},
+        {"model": "Phone (1)", "codename": "Nothing Phone 1", "certified_date": "2022-07"}
+      ]
+    }
+  ],
+  "uncertified_devices": [
+    {
+      "manufacturer": "Huawei",
+      "reason": "No longer GMS certified due to US entity list restrictions",
+      "uses": "HMS (Huawei Mobile Services)",
+      "models": ["P50 Pro", "Mate 50", "P40 Pro", "Mate 30 Pro"]
+    },
+    {
+      "manufacturer": "Honor",
+      "reason": "Separated from Huawei but legacy devices may not have GMS",
+      "uses": "GMS on newer models, HMS on legacy",
+      "models": ["Magic 5 Pro", "Honor 70"]
+    },
+    {
+      "manufacturer": "Amazon",
+      "reason": "Uses Fire OS (forked Android) instead of AOSP+GMS",
+      "uses": "Amazon Appstore only",
+      "models": ["Fire HD 10", "Fire 7", "Kindle Fire"]
+    },
+    {
+      "manufacturer": "Baidu",
+      "reason": "Chinese market fork with Baidu services",
+      "uses": "Baidu Mobile Services",
+      "models": ["Xiaodu"]
+    }
+  ]
+}
